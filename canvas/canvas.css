@@ -1,0 +1,17 @@
+html, body {
+  height: 100%;
+}
+body {
+  background: #000;
+}
+canvas {
+  width: auto;
+  height: auto;
+  max-width: 90%;
+  max-height: 90%;
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
